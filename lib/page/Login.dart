@@ -68,7 +68,7 @@ class _LoginFormState extends State<LoginForm> {
           //Chang language
           Container(
             alignment: Alignment.topRight,
-            color: Colors.white,
+            color: Colors.blueGrey[600],
             child: Padding(
               padding: const EdgeInsets.fromLTRB(0, 10, 10, 10),
               child: DropdownButton<Language>(

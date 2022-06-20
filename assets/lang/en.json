@@ -9,6 +9,6 @@
   "warning_email": "Please enter your email",
   "warning_password": "Please enter your password",
   "login_fail": "Login failed",
-
+  "login_fb": "LOGIN WITH FACEBOOK",
   "homepage": "HOMEPAGE"
 }

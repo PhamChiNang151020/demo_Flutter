@@ -28,7 +28,7 @@ class _FormLoginState extends State<FormLogin> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.white,
+      color: Colors.grey[300],
       padding: EdgeInsets.fromLTRB(20, 10, 20, 0),
       child: Form(
         //Dùng cho điều kiện
@@ -101,39 +101,59 @@ class _FormLoginState extends State<FormLogin> {
             // BUTTON ĐĂNG NHẬP
             Padding(
               padding: const EdgeInsets.fromLTRB(10, 0, 10, 0),
-              child: Container(
-                child: ElevatedButton(
-                  style: ElevatedButton.styleFrom(
-                    padding: EdgeInsets.all(15),
-                    shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(25)),
-                  ),
-                  onPressed: () {
-                    if (_formKey.currentState!.validate()) {
-                      if (emailController.text == _username &&
-                          passwordController.text == _password) {
-                        Navigator.push(context,
-                            MaterialPageRoute(builder: (_) => HomePage()));
-                        print('Chuyển');
-                      } else
-                        ScaffoldMessenger.of(context).showSnackBar(FailLogin);
-                    }
-                  },
-                  child: Row(
+              child: ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  padding: EdgeInsets.all(15),
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(25)),
+                ),
+                onPressed: () {
+                  if (_formKey.currentState!.validate()) {
+                    if (emailController.text == _username &&
+                        passwordController.text == _password) {
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (_) => HomePage()));
+                      print('Chuyển');
+                    } else
+                      ScaffoldMessenger.of(context).showSnackBar(FailLogin);
+                  }
+                },
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: <Widget>[
+                    Text(
+                      'login'.tr(),
+                      style: TextStyle(
+                        fontSize: 20,
+                      ),
+                    ),
+                    Icon(
+                      Icons.login,
+                    ),
+                  ],
+                ),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(10, 20, 10, 0),
+              child: ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                  padding: EdgeInsets.all(15),
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(25)),
+                ),
+                child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: <Widget>[
                       Text(
-                        'login'.tr(),
+                        'login_fb'.tr(),
                         style: TextStyle(
                           fontSize: 20,
                         ),
                       ),
-                      Icon(
-                        Icons.login,
-                      ),
-                    ],
-                  ),
-                ),
+                      Icon(Icons.facebook),
+                    ]),
+                onPressed: () {},
               ),
             )
           ],
