@@ -1,0 +1,15 @@
+{
+  "title": "DEMO",
+  "txt_form": "MẤU ĐĂNG NHẬP",
+  "email": "EMAIL",
+  "enter_your_email": "Nhập email người dùng",
+  "password": "MẬT KHẨU",
+  "enter_your_password": "Nhập mật khẩu",
+  "login": "ĐĂNG NHẬP",
+
+  "warning_email": "Vui lòng nhập email",
+  "warning_password": "Vui lòng nhập mật khẩu",
+  "login_fail": "Đăng nhập thất bại",
+
+  "homepage": "TRANG CHỦ"
+}

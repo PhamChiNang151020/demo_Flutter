@@ -1,0 +1,14 @@
+{
+  "title": "DEMO",
+  "txt_form": "LOGIN FORM",
+  "email": "EMAIL",
+  "enter_your_email": "Enter your email",
+  "password": "PASSWORD",
+  "enter_your_password": "Enter your password",
+  "login": "LOGIN",
+  "warning_email": "Please enter your email",
+  "warning_password": "Please enter your password",
+  "login_fail": "Login failed",
+
+  "homepage": "HOMEPAGE"
+}
