@@ -1,11 +1,11 @@
-class ItemMenu {
+class ModelMenu {
   String? name;
   String? icon;
   String? screen;
 
-  ItemMenu({this.name, this.icon, this.screen});
+  ModelMenu({this.name, this.icon, this.screen});
 
-  ItemMenu.fromJson(Map<String, dynamic> json) {
+  ModelMenu.fromJson(Map<String, dynamic> json) {
     name = json['name'];
     icon = json['icon'];
     screen = json['screen'];
