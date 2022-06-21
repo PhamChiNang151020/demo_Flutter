@@ -14,6 +14,10 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.2
   easy_localization: ^3.0.0
+  font_awesome_flutter: ^10.1.0
+  community_material_icon: ^5.9.55
+  http: ^0.13.4
+  meta: ^1.7.0
 
 dev_dependencies:
   flutter_test:
@@ -23,3 +27,5 @@ flutter:
   uses-material-design: true
   assets:
     - assets/lang/
+    - assets/images/
+    - assets/menu/menu_list.json

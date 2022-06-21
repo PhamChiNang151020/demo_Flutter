@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:easy_localization/src/public_ext.dart';
 
-import '../widget/formLogin.dart';
+import '../widget/FormLogin.dart';
 
 //Tạo classs Language để định nghĩa
 class Language {

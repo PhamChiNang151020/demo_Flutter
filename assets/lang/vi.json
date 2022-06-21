@@ -12,5 +12,12 @@
   "login_fail": "Đăng nhập thất bại",
   "login_fb": "Đăng nhập với Facebook",
 
-  "homepage": "TRANG CHỦ"
+  "homepage": "TRANG CHỦ",
+
+  "dashboard": "Bảng điều khiển",
+  "schedule": "Lịch trình",
+  "report": "Báo cáo",
+  "documents": "Tài liệu",
+  "notifications": "Thông báo",
+  "logout":"Đăng xuất"
 }
