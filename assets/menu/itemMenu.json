@@ -1,12 +1,27 @@
 [
   {
     "name": "dashboard",
-    "icon": "house",
+    "icon": "assets/icon/dashboard.png",
     "screen": ""
   },
   {
     "name": "schedule",
-    "icon": "calendar",
+    "icon": "assets/icon/schedule.png",
+    "screen": ""
+  },
+  {
+    "name": "report",
+    "icon": "assets/icon/report.png",
+    "screen": ""
+  },
+  {
+    "name": "documents",
+    "icon": "assets/icon/documents.png",
+    "screen": ""
+  },
+  {
+    "name": "notifications",
+    "icon": "assets/icon/notification.png",
     "screen": ""
   }
 ]

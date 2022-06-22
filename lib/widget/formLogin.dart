@@ -108,18 +108,18 @@ class _FormLoginState extends State<FormLogin> {
                       borderRadius: BorderRadius.circular(25)),
                 ),
                 onPressed: () {
-                  Navigator.push(
-                      context, MaterialPageRoute(builder: (_) => HomePage()));
+                  // Navigator.push(
+                  //     context, MaterialPageRoute(builder: (_) => HomePage()));
 
-                  // if (_formKey.currentState!.validate()) {
-                  //   if (emailController.text == _username &&
-                  //       passwordController.text == _password) {
-                  //     Navigator.push(context,
-                  //         MaterialPageRoute(builder: (_) => HomePage()));
-                  //     print('Chuyển');
-                  //   } else
-                  //     ScaffoldMessenger.of(context).showSnackBar(FailLogin);
-                  // }
+                  if (_formKey.currentState!.validate()) {
+                    if (emailController.text == _username &&
+                        passwordController.text == _password) {
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (_) => HomePage()));
+                      print('Chuyển');
+                    } else
+                      ScaffoldMessenger.of(context).showSnackBar(FailLogin);
+                  }
                 },
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,

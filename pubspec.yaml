@@ -28,4 +28,5 @@ flutter:
   assets:
     - assets/lang/
     - assets/images/
+    - assets/icon/
     - assets/menu/itemMenu.json
